@@ -10,9 +10,23 @@ var: o escopo varia sendo de uma função ou global
 let: O escopo é de bloco 
 const: Valor fixo
 
+Anatoção de codigo 
+Objetivo único de explicar rapidamente e/ ou  documentar.
+//
+
 
 
 */
+
+function somar(a, b){
+    return a + b;
+
+}
+
+let resultadoSomar = somar;
+console.log(resultadoSomar(5, 5)); 
+
+
 const frase = "Olá, Eu sou uma constante global";
 
 function exemploVar(){
