@@ -1,0 +1,29 @@
+// Operador Básico  de atribuição (=)
+
+let a = 10;
+console.log(`O valor de a é: ${a}`)
+
+// operador de atribuição de adição (+=)
+
+a += 5;
+console.log(`Após a += 5, o valor de a: ${a} `)
+
+// operador de atribuição de  subtração (-=)
+a -= 3;// a = a -3;
+console.log(`Após a -= 3, o valor de a: ${a}`)
+
+// operador de atribuição de multiplicação (*=)
+a *= 2;// a = a * 2;
+console.log(`Após a *= 2, o valor de a: ${a}`)
+
+// operador de atribuição de divisão (/=)
+a /= 2;// a = a / 2;
+console.log(`Após a /= 2, o valor de a: ${a}`)
+
+// operador de atribuição de resto (%=)
+a %= 4;// a = a % 4;
+console.log(`Após a %= 4, o valor de a: ${a}`)
+
+// operador de atibuição exponenciação (**=)
+a **= 3;// a = a ** 3;
+console.log(`Após a **= 3, o valor de a: ${a}`)
