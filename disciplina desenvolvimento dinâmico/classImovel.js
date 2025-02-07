@@ -8,7 +8,11 @@ class Imovel {
         throw new Error("Este método deve ser implementado por subclasses")
         
     }
-
+    validar(){
+        if(this.endereco == null || this.tamanho == null){
+        throw new Error("Dados invalidos para o imóvel ");
+    }
+    }
 }
 
 class casa extends Imovel{
